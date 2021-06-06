@@ -1,0 +1,11 @@
+.gradient {
+    background-image: linear-gradient(to right, rgb(92, 92, 250), rgb(10, 10, 63));
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#city-search {
+    font-size: 30px;
+}

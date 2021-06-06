@@ -31,4 +31,5 @@ Quickly check live weather updates with the OpenWeather API
 ## Sources
 
 * [OpenWeather API](https://openweathermap.org/)
-
+* [Bootstrap v5.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+*[CSS Color Gradient](https://www.w3schools.com/css/css3_gradients.asp)
