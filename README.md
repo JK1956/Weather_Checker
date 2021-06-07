@@ -17,7 +17,7 @@ This weather checker has been designed to pull and display weather information f
 
 ## Link to Weather Checker
 
-[Click here to schedule your day!](http://jk1956.github.io/Weather_Checker/)
+[Click here to check the weather!](http://jk1956.github.io/Weather_Checker/)
 
 ## Screenshots of deployed page
 S
