@@ -28,6 +28,14 @@
     backgound-color: red;
 }
 
+.current-number {
+    padding: 10px;
+    font-size: 20px;
+    display: inline;
+    margin-top: 5px;
+    color: white;
+}
+
 /* ID Styling */
 
 #city-search {
