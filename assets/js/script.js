@@ -97,11 +97,11 @@ var currentWeather = function(cityName) {
                     currentNumber.text(response.current.uvi);
 
                     if (response.current.uvi < 3 ) {
-                        currentNumber.addClass("favorable");
+                        currentNumber.addClass("light");
                     } else if (response.current.uvi >= 3 && response.current.uvi < 8 ) {
-                        currentNumber.addClass("moderate");
+                        currentNumber.addClass("medium");
                     } else {
-                        currentNumber.addClass("severe");
+                        currentNumber.addClass("heavy");
                     }
                 })
         })

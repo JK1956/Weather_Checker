@@ -16,6 +16,18 @@
     font-weight: bold;
 }
 
+.light {
+    background-color: green;
+}
+
+.medium {
+    background-color: yellow;
+}
+
+.heavy {
+    backgound-color: red;
+}
+
 /* ID Styling */
 
 #city-search {
