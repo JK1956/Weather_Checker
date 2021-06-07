@@ -1,3 +1,5 @@
+/* Class styling */
+
 .gradient {
     background-image: linear-gradient(to right, rgb(92, 92, 250), rgb(10, 10, 63));
 }
@@ -6,6 +8,21 @@
     font-weight: bold;
 }
 
+.bolder {
+    font-weight: bolder;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* ID Styling */
+
 #city-search {
     font-size: 30px;
+}
+
+#srch-btn {
+    width: 12em;
+    font-size: medium;
 }
