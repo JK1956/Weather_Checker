@@ -1,15 +1,5 @@
 # Weather_Checker
 Quickly check live weather updates with the OpenWeather API
-
-## My API Key
-
-* dfad5d87bd31f50313586663d390de86
-
-## API Call:
-
-* api.openweathermap.org/data/2.5/weather?q={city name},{state code},{country code}&appid={API key}
-
-
 ### User Story
 * AS A traveler
 * I WANT to see the weather outlook for multiple cities
@@ -32,4 +22,6 @@ Quickly check live weather updates with the OpenWeather API
 
 * [OpenWeather API](https://openweathermap.org/)
 * [Bootstrap v5.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
-*[CSS Color Gradient](https://www.w3schools.com/css/css3_gradients.asp)
+* [CSS Color Gradient](https://www.w3schools.com/css/css3_gradients.asp)
+* [JSON assistance for OpenWeather API](https://stackoverflow.com/questions/51832321/trying-to-parse-openweather-api-for-json)
+* [More JSON / JS / OpenWeather assistance](https://rapidapi.com/blog/openweathermap-api-overview/javascript/)
