@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- standard bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- style sheet for save icon -->
+    <link 
+    rel="stylesheet" 
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Weather Checker | Live Updates & 5-Day Forecast</title>
+</head>
+
+
+<!-- Begin Body -->
+<body>
+
+    <!-- Begin Header -->
+    <header class="header">
+
+        <div class="h1-container d-flex translate-middle justify-content-center gradient">
+            <h1 class="h1 text-light bold">Weather Dashboard</h1>
+        </div>
+
+    </header>
+    <!-- End Header -->
+
+    <!-- Begin Main -->
+    <main>
+
+        <div class="container-fluid">
+            <div class="row page-content">
+
+                <!-- Search Form Column -->
+                <section class= "col-3 justify-content-center p-4">
+
+                    <div class="form-container">
+                        <form id="search-form">
+                            <div class="row m-0">
+                                <label for="search-input" class="search-label m-0 text-dark bold" 
+                                       id="city-search">Search for a City:
+                                </label>
+                            </div>
+                            <div class="row m-0">
+                                <div class="col-sm-8 p-0 my-auto">
+                                    <input type="text" id="search-input" name="search-input" class="search-input rounded">
+                                </div>
+                                <div class="col-sm-4 p-0">
+                                    <button type="button" class="btn btn-info" id="srch-btn">Search</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div id="history-container" class="row m-0">
+
+                    </div>
+
+                </section>
+                <!--  End Search Form Column-->
+
+                <!-- Weather Column -->
+                <section class="col-sm-8 p-0">
+
+                    <div id="current-weather-container" class="row d-block">
+                        <div class="current-title-container">
+                            <h2 id="current-title" class="current-title d-inline"></h2>
+                            <img id="current-weather-icon" class="d-inline" src="" alt="">
+                        </div>
+
+                        <p class="current-temperature" id="current-temperature"></p>
+                        
+                        <p class="current-humidity" id="current-humidity"></p>
+                        
+                        <p class="current-wind-speed" id="current-wind-speed"></p>
+                        
+                        <p class="current-uv-index" id="current-uv-index"></p>
+
+                        <p class="current-number rounded" id="current-number"></p>
+                    </div>
+                    
+                    <div class="row future-forecast-container d-block">
+                        
+                        <h2 class="future-forecast-title" id="future-forecast-title"></h2>
+                        <div id="forecasts-cards-container" class="forecasts-cards-container d-flex justify-content-between">
+                            
+                            <div class="future-card bg-primary rounded">
+                                <p class="future-date" id="future-date-1"></p>
+                                <img id="future-icon-1" src="" alt="">
+                                <p class="future-temp" id="future-temp-1"></p>
+                                <p class="future-humidity" id="future-humidity-1"></p>
+                            </div>
+                            <div class="future-card bg-primary rounded">
+                                <p class="future-date" id="future-date-2"></p>
+                                <img id="future-icon-2" src="" alt="">
+                                <p class="future-temp" id="future-temp-2"></p>
+                                <p class="future-humidity" id="future-humidity-2"></p>
+                            </div>
+                            <div class="future-card bg-primary rounded">
+                                <p class="future-date" id="future-date-3"></p>
+                                <img id="future-icon-3" src="" alt="">
+                                <p class="future-temp" id="future-temp-3"></p>
+                                <p class="future-humidity" id="future-humidity-3"></p>
+                            </div>
+                            <div class="future-card bg-primary rounded">
+                                <p class="future-date" id="future-date-4"></p>
+                                <img id="future-icon-4" src="" alt="">
+                                <p class="future-temp" id="future-temp-4"></p>
+                                <p class="future-humidity" id="future-humidity-4"></p>
+                            </div>
+                            <div class="future-card bg-primary rounded">
+                                <p class="future-date" id="future-date-5"></p>
+                                <img id="future-icon-5" src="" alt="">
+                                <p class="future-temp" id="future-temp-5"></p>
+                                <p class="future-humidity" id="future-humidity-5"></p>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+            </div>
+        </div>
+
+    </main>
+    <!-- End Main -->
+
+    <footer>
+
+        <h3>&copy 2021 Jim Karavitis</h3>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+<!-- End Body -->
+
+
+</html>

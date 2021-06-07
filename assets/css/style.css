@@ -1,0 +1,48 @@
+/* Class styling */
+
+.gradient {
+    background-image: linear-gradient(to right, rgb(92, 92, 250), rgb(10, 10, 63));
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.light {
+    background-color: green;
+}
+
+.medium {
+    background-color: yellow;
+}
+
+.heavy {
+    backgound-color: red;
+}
+
+.current-number {
+    padding: 10px;
+    font-size: 20px;
+    display: inline;
+    margin-top: 5px;
+    color: white;
+}
+
+/* ID Styling */
+
+#city-search {
+    font-size: 30px;
+}
+
+#srch-btn {
+    width: 12em;
+    font-size: medium;
+}

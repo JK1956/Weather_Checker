@@ -1,34 +1,39 @@
-# Weather_Checker
+# Weather Checker
 Quickly check live weather updates with the OpenWeather API
 
-## My API Key
+## Description
+This weather checker has been designed to pull and display weather information for cities across the United States. The application fetches information from OpenWeather's API and displays information such as time, temperature, UV index, 5-day forecast and various graphics to enhance presentation. The application also stores previously searched cities for future use. 
 
-* dfad5d87bd31f50313586663d390de86
+### Issues Resolved
+* OpenWeather API fetches real-time data
+* localstorage used to store data
+* City search history saved and listed
+* Information displayed: City name, date, icon representation of weather, temperature, humidity, wind speed, UV index
+* 5-Day forecast of future weather
 
-## API Call:
+### Issues Remaining
+* Search button not sitting underneath searchbar
+* Search button does not always register but 'enter' button on keyboard always works
 
-* api.openweathermap.org/data/2.5/weather?q={city name},{state code},{country code}&appid={API key}
+## Link to Weather Checker
 
+[Click here to schedule your day!](http://jk1956.github.io/Weather_Checker/)
 
-### User Story
-* AS A traveler
-* I WANT to see the weather outlook for multiple cities
-* SO THAT I can plan a trip accordingly
+## Screenshots of deployed page
+S
+The Weather Checker will appear as the following once deployed in a traditonal desktop browser:
 
-### Acceptance Criteria
-* GIVEN a weather dashboard with form inputs
-* WHEN I search for a city
-* THEN I am presented with current and future conditions for that city and that city is added to the search history
-* WHEN I view current weather conditions for that city
-* THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, the wind speed, and the UV index
-* WHEN I view the UV index
-* THEN I am presented with a color that indicates whether the conditions are favorable, moderate, or severe
-* WHEN I view future weather conditions for that city
-* THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
-* WHEN I click on a city in the search history
-* THEN I am again presented with current and future conditions for that city
+![Home page](assets/images/homepage.JPG)
 
 ## Sources
 
 * [OpenWeather API](https://openweathermap.org/)
+* [Bootstrap v5.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+* [CSS Color Gradient](https://www.w3schools.com/css/css3_gradients.asp)
+* [JSON assistance for OpenWeather API](https://stackoverflow.com/questions/51832321/trying-to-parse-openweather-api-for-json)
+* [More JSON / JS / OpenWeather assistance](https://rapidapi.com/blog/openweathermap-api-overview/javascript/)
+* [Add class for UV conditions](https://stackoverflow.com/questions/18282708/javascript-ifcondition-then-addclass)
 
+## Credits
+
+Project idea and supplementary code provided in module 6 of UCF Bootcamp. Weather information provided by OpenWeather API. Code used from Bootstrap, JQuery, Stack Overflow and W3 Schools.
